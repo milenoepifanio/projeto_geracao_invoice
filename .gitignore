@@ -1,0 +1,88 @@
+# --- Arquivos e pastas do Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# --- Virtualenv ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Configurações locais ---
+*.log
+*.pot
+*.pyproj
+*.sublime-project
+*.sublime-workspace
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.iml
+
+# --- Sistema operacional ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --- Arquivos temporários ---
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# --- Dados sensíveis ---
+*.key
+*.pem
+*.crt
+*.env.local
+*.secrets
+
+# --- Notebooks Jupyter ---
+.ipynb_checkpoints
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Node (caso use em algum fluxo) ---
+node_modules/
+npm-debug.log
+yarn.lock
+
+# --- Build e distribuições ---
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# --- Coverage e testes ---
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+
+/arquivos_originais/
+desktop.ini
+
